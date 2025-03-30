@@ -1,0 +1,57 @@
+// 몬스터 
+
+// MISSING_NO
+:MONSTER0
+{
+monster_no = 0
+hp = 1
+damage = 1
+attack_interval = -1
+movement_interval = -1
+move_pattern = []
+icon = !
+}
+
+:MONSTER1
+{
+monster_no = 1
+hp = 30
+damage = 10
+attack_interval = 50
+movement_interval = 25
+move_pattern = [(1,1),(1,1),(1,-1),(1,-1),(-1,-1),(-1,-1),(-1,1),(-1,1)]
+icon = A
+}
+
+:MONSTER2
+{
+monster_no = 2
+hp = 30
+damage = 10
+attack_interval = 25
+movement_interval = 15
+move_pattern = [(1,1),(1,1),(1,-1),(1,-1),(-1,-1),(-1,-1),(-1,1),(-1,1)]
+icon = B
+}
+
+:MONSTER3
+{
+monster_no = 3
+hp = 30
+damage = 2
+attack_interval = 15
+movement_interval = 10
+move_pattern = [(1,1),(1,1),(1,1),(1,-1),(1,-1),(1,-1),(-1,-1),(-1,-1),(-1,-1),(-1,1),(-1,1),(-1,1)]
+icon = C
+}
+
+:MONSTER4
+{
+monster_no = 4
+hp = 30
+damage = 10
+attack_interval = 5
+movement_interval = 5
+move_pattern = [(1,1),(1,1),(1,1),(1,-1),(1,-1),(1,-1),(-1,-1),(-1,-1),(-1,-1),(-1,1),(-1,1),(-1,1)]
+icon = D
+}
